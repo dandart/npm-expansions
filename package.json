@@ -26,6 +26,12 @@
   "scripts": {
     "prepublish": "npm test",
     "pretest": "node build.js",
-    "test": "tap test"
+    "test": "tap test",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true,
+  "dependencies": {
+    "snyk": "^1.69.7"
   }
 }
