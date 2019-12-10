@@ -7,7 +7,7 @@
     "url": "https://github.com/npm/npm-expansions/issues"
   },
   "devDependencies": {
-    "tap": "^13.1.9"
+    "tap": "^14.10.2-totally-bundled.1"
   },
   "homepage": "https://github.com/npm/npm-expansions",
   "keywords": [
@@ -32,6 +32,6 @@
   },
   "snyk": true,
   "dependencies": {
-    "snyk": "^1.165.0"
+    "snyk": "^1.258.1"
   }
 }
